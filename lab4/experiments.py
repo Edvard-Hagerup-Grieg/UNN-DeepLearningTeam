@@ -4,8 +4,8 @@ import numpy as np
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 
-from lab2.dataset import load_dataset
-from lab4.models import generate_model_zoo_unsupervised
+from dataset import load_dataset_vec, load_dataset_img
+from models import generate_model_dense_zoo_unsupervised, generate_model_conv_zoo_unsupervised
 
 
 def save_history_img(history, number, name='model'):
@@ -81,8 +81,8 @@ def train_unsupervised_models(models, x, y):
 
 
 if __name__ == "__main__":
-    autoencoders, models, params = generate_model_zoo_unsupervised()
-    (x_train, y_train), (x_test, y_test) = load_dataset()
+    autoencoders, models, params = generate_model_conv_zoo_unsupervised()
+    (x_train, y_train), (x_test, y_test) = load_dataset_img()
     train_unsupervised_models(autoencoders, x_train, x_train)
 
     train_models(models, x_train, y_train, "new_moldel")
