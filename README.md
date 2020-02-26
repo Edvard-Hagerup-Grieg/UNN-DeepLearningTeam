@@ -11,7 +11,7 @@
 
 <a><img src="https://latex.codecogs.com/gif.latex?\inline&space;\forall&space;y\in&space;Y:\sum_{i=1}^{M}{y^{(i)}}&space;=&space;1"></a>
 
-Для набора данных <a><img src="https://latex.codecogs.com/gif.latex?\inline&space;\left&space;\{&space;\left&space;(&space;x^{(i)},&space;y^{(i)}&space;\right&space;):x^{(i)}\in&space;X,&space;y^{(i)}\in&space;Y,&space;i&space;=&space;1,...,L\right&space;\}"></a> предполагается подбор архитекрур [полносвязной]() и [сверточной]() нейронных сетей для решения задачи классификации, их обучение и тестирование, а так же реализация [переноса знаний]().
+Для набора данных <a><img src="https://latex.codecogs.com/gif.latex?\inline&space;\left&space;\{&space;\left&space;(&space;x^{(i)},&space;y^{(i)}&space;\right&space;):x^{(i)}\in&space;X,&space;y^{(i)}\in&space;Y,&space;i&space;=&space;1,...,L\right&space;\}"></a> предполагается подбор архитекрур [полносвязной](https://github.com/Edvard-Hagerup-Grieg/UNN-DeepLearningTeam/tree/master/lab2) и [сверточной](https://github.com/Edvard-Hagerup-Grieg/UNN-DeepLearningTeam/tree/master/lab3) нейронных сетей для решения задачи классификации, их обучение и тестирование, [начальная настройка весов](https://github.com/Edvard-Hagerup-Grieg/UNN-DeepLearningTeam/tree/master/lab4), а так же реализация [переноса знаний](https://github.com/Edvard-Hagerup-Grieg/UNN-DeepLearningTeam/tree/master/lab5).
 
 
 ## <a name="Dataset"></a>	Набор данных
