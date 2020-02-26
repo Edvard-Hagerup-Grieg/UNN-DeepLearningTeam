@@ -22,8 +22,8 @@ def save_history_img(history, number, name='model'):
 def save_history_img_enc(history, number, name='model'):
     plt.plot(history.history['loss'])
     plt.plot(history.history['val_loss'])
-    plt.title('Model accuracy')
-    plt.ylabel('Accuracy')
+    plt.title('Model loss')
+    plt.ylabel('Loss')
     plt.xlabel('Epoch')
     plt.legend(['Train', 'Test'], loc='upper left')
     plt.savefig("pictures\\" + name + "_" + str(number))
