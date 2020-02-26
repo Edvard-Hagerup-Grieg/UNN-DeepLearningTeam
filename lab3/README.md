@@ -49,16 +49,16 @@
 
 
 ## <a name="Description"></a>	Описание программной реализации
-[dataset.py]() содержит методы для обработки входных данных:
+[dataset.py](https://github.com/Edvard-Hagerup-Grieg/UNN-DeepLearningTeam/blob/master/lab3/dataset.py) содержит методы для обработки входных данных:
 
 + load_dataset() загружает набор данных, нормирует x и приводит y к one-hot кодированию.
 
-[models.py]() содержит методы для создания моделей:
+[models.py](https://github.com/Edvard-Hagerup-Grieg/UNN-DeepLearningTeam/blob/master/lab3/models.py) содержит методы для создания моделей:
 
 + build_dense_model_1() строит сверточную модель в соответствии с параметрами из аргументов.
 + generate_model_zoo() создаёт список моделей разных архитектур для экспериментов.
 
-[experiments.py]() содержит методы для проведения экспериментов на моделях:
+[experiments.py](https://github.com/Edvard-Hagerup-Grieg/UNN-DeepLearningTeam/blob/master/lab3/experiments.py) содержит методы для проведения экспериментов на моделях:
 
 + save_history_img() сохраняет график обучения
 + calculate_accuracy() считает точность модели
